@@ -15,6 +15,19 @@ export default function Footer() {
             Kelly Lee
           </a>
         </p>
+        <p className="text-center">
+          Based on a tutorial by{' '}
+          <a
+            href="https://academy.dream-coding.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-all hover:font-bold hover:underline"
+            title="Visit Dream Coding Academy"
+            aria-label="Dream Coding Academy"
+          >
+            Dream Coding
+          </a>
+        </p>
       </div>
     </footer>
   );
