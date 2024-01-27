@@ -5,7 +5,7 @@ type Props = { posts: Post[] };
 
 export default function PostsGrid({ posts }: Props) {
   return (
-    <ul>
+    <ul className="grid md:grid-cols-2 lg:grid-cols-4 gap-2">
       {posts.map((post) => (
         <li key={post.path}>
           <PostCard post={post} />

@@ -5,7 +5,7 @@ export default async function FeaturedPosts() {
   const posts = await getFeaturedPosts();
   return (
     <section>
-      <h2 className="text-2xl font-bold">Featured Posts</h2>
+      <h2 className="text-2xl font-bold mb-3">Featured Posts</h2>
       <PostsGrid posts={posts} />
     </section>
   );
