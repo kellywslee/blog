@@ -17,7 +17,7 @@
   },
   {
     "title": "10 JavaScript Pro Tips!",
-    "description": "10 tips for using JavaScript like a pro",
+    "description": "Elevate your JavaScript skills with 10 expert tips",
     "date": "2022-06-15",
     "category": "javascript",
     "path": "javascript-10-tips",
@@ -25,7 +25,7 @@
   },
   {
     "title": "Basic Node Summary",
-    "description": "A complete summary of basic Node usage!",
+    "description": "An overview of Node.js essentialsand basic server creation.",
     "date": "2022-08-21",
     "category": "backend",
     "path": "node-basic",
@@ -41,7 +41,7 @@
   },
   {
     "title": "Node Pro Tips!",
-    "description": "A compilation of all the tips to use Node like a pro!",
+    "description": "A compilation of all the tips to use Node like a pro and tips!",
     "date": "2023-04-10",
     "category": "backend",
     "path": "node-pro-tips",

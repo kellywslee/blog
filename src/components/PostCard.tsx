@@ -9,7 +9,7 @@ export default function PostCard({
 }: Props) {
   return (
     <Link href={`/posts/${path}`}>
-      <article className=" rounded-xl bg-cyan-50 shadow-md hover:shadow-xl  transition-all">
+      <article className=" rounded-xl bg-cyan-50 overflow-hidden shadow-md hover:shadow-xl  transition-all w-full">
         <Image
           src={`/images/posts/${path}.png`}
           alt={title}
@@ -20,7 +20,7 @@ export default function PostCard({
         <div className="p-3">
           <time className="text-xs">{date.toString()}</time>
           <h3 className="font-bold">{title}</h3>
-          <p className="mb-2">{description}</p>
+          <p className="w-full truncate text-center mb-2">{description}</p>
           <span className="font-bold bg-purple-200 py-1 px-2 rounded-md text-xs text-center grow-0">
             {category}
           </span>

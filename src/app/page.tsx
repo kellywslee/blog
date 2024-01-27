@@ -4,7 +4,7 @@ import CarouselPosts from '@/components/CarouselPosts';
 
 export default function HomePage() {
   return (
-    <section className="p-24">
+    <section className="pt-20">
       <Hero />
       <FeaturedPosts />
       <CarouselPosts />
