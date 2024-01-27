@@ -1,13 +1,14 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default function AboutPage() {
+export default function Hero() {
   return (
     <section className="p-30 flex flex-col items-center justify-center">
       <Image
         src="/images/kelly.JPG"
         width={300}
         height={300}
+        priority
         alt="Picture of the author"
         className="rounded-full w-56 h-56 object-cover mb-4"
       />
