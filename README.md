@@ -1,3 +1,9 @@
+### Next.js + Typescript Project
+
+![image](https://github.com/kellywslee/blog/assets/76071382/1dde274f-e429-4cd5-826a-808421a60da0)
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
