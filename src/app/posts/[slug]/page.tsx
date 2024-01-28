@@ -9,10 +9,11 @@ type Props = {
   };
 };
 
-export function generateMetadata({ params }: Props) {
+export async function generateMetadata({ params: { slug } }: Props) {
+  const { title, description } = await getPostData(slug);
   return {
-    title: `${params.slug} `,
-    description: `${params.slug}!`,
+    title,
+    description,
   };
 }
 

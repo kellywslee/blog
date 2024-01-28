@@ -4,6 +4,13 @@ import Link from 'next/link';
 import { useState, useRef, useEffect } from 'react';
 import Hamburger from 'hamburger-react';
 
+const LINKS = [
+  { href: '/', label: 'home' },
+  { href: '/about', label: 'about' },
+  { href: '/posts', label: 'posts' },
+  { href: '/contact', label: 'contact' },
+];
+
 export default function Nav() {
   const [isHambugerOpen, setHamburgerOpen] = useState(false);
   const hamburgerRef = useRef(null);
@@ -41,18 +48,16 @@ export default function Nav() {
           <h1>Kelly&apos;s Blog</h1>
         </Link>
         <nav className="flex flex-col gap-3 items-center lg:flex-row lg:gap-5">
-          <Link href="/" className="hover:font-bold transition-all">
-            home
-          </Link>
-          <Link href="/about" className="hover:font-bold transition-all">
-            about
-          </Link>
-          <Link href="/posts" className="hover:font-bold transition-all">
-            posts
-          </Link>
-          <Link href="/contact" className="hover:font-bold transition-all">
-            contact
-          </Link>
+          {LINKS.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="hover:font-bold transition-all"
+              onClick={closeMenu}
+            >
+              {link.label}
+            </Link>
+          ))}
         </nav>
       </div>
 
