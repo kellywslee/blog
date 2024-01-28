@@ -1,4 +1,4 @@
-## What is Concurrent React?
+### What is Concurrent React?
 
 > The most important addition in React 18 is something we hope you never have to think about: concurrency. We think this is largely true for application developers, though the story may be a bit more complicated for library maintainers.
 

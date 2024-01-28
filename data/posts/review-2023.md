@@ -1,11 +1,11 @@
-## 2023 Year Review!
+### 2023 Year Review!
 
 - Employee’s basic information. For identification and analysis purposes, it is also important that you add a section where the employee’s basic information can be written, including their name, ID, and position in the company.
   Review period. To streamline the entire annual review process, it is critical that you add a section that states the period for which the review is being conducted.
 - Tasks to be evaluated. This is the main section of the annual review template, so mention all the yearly goals for which the employee is being evaluated.
   Performance score rating. For each task mentioned earlier, make sure you leave adequate space where the reviewer can rate the employee's quality of work. You can do this through a 5-star review system, Likert scale or even by adding an empty box where reviewers can describe their evaluation. Some of
 
-## What Is an Annual Review?
+### What Is an Annual Review?
 
 An annual review, or a year-end review, is the process of evaluating employee performance over the past year. Annual reviews are typically done by managers, but can also be self-conducted.
 
@@ -23,7 +23,7 @@ On the other hand, employees can also use this time to communicate their future 
 
 At the end of an annual review, managers evaluate whether the company's future goals align with employees' objectives, and decide if they should be recommended for a raise or promotion in the coming year.
 
-## How to Write a Year-End Review
+### How to Write a Year-End Review
 
 When it comes to preparing for a year-end review, there isn’t any one-size-fits-all approach.
 
