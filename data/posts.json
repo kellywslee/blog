@@ -1,7 +1,7 @@
 [
   {
     "title": "2021 Year in Review",
-    "description": "Summary of the skills and thoughts learned throughout the year 2021",
+    "description": "Summary of the skills and thoughts learned",
     "date": "2021-12-31",
     "category": "my story",
     "path": "review-2021",
@@ -33,7 +33,7 @@
   },
   {
     "title": "2022 Year in Review",
-    "description": "Summary of the skills and thoughts learned throughout the year 2022",
+    "description": "Summary of the skills and thoughts learned",
     "date": "2022-12-31",
     "category": "my story",
     "path": "review-2022",
@@ -41,7 +41,7 @@
   },
   {
     "title": "Node Pro Tips!",
-    "description": "A compilation of all the tips to use Node like a pro and tips!",
+    "description": "All the tips to use Node like a pro and tips!",
     "date": "2023-04-10",
     "category": "backend",
     "path": "node-pro-tips",
@@ -65,7 +65,7 @@
   },
   {
     "title": "2023 Year in Review",
-    "description": "Summary of the skills and thoughts learned throughout the year 2023",
+    "description": "Summary of the skills and thoughts learned",
     "date": "2023-12-31",
     "category": "my story",
     "path": "review-2023",
