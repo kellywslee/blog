@@ -1,5 +1,3 @@
-import { FaCheckCircle, FaTimesCircle } from 'react-icons/fa';
-
 export type BannerData = {
   message: string;
   state: 'success' | 'error';
